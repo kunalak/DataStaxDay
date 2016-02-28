@@ -17,20 +17,18 @@ We have an 8 node cluster for you to play with! The cluster is currently running
 ssh root@ipaddress 
 // You can login to any of these nodes 
 
-Node 1: 52.26.162.19
-Node 2: 52.36.64.67
-Node 3: 52.36.214.40
-Node 4: 52.26.162.19
-Node 5: 52.36.159.175
-Node 6: 52.36.211.216
-Node 7: 52.36.213.110
-Node 8: 52.36.27.29
+Node 0: 104.45.236.87
+Node 1: 104.45.239.82
+Node 2: 104.45.230.158
+Node 3: 104.45.226.34
+Node 4: 104.45.224.77
+Node 5: 104.45.224.65
 password: C@ssandra
 ```
 
 #### UI's you'll want to play around with
  
- - OpsCenter: http://52.36.149.123:8888/
+ - OpsCenter: http://104.45.231.71:8888/
  - Spark Master: http://52.36.149.123:7080
  - Solr UI: http://52.36.149.123:8983/solr/
 
