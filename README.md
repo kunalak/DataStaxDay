@@ -1,4 +1,4 @@
-Welcome to DataStax Essentials Day!
+Welcome to DataStax session@Microsoft AMP Phoneix!
 ===================
 ![icon](http://i.imgur.com/FoIOBlt.png)
 
