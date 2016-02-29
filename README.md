@@ -1,4 +1,4 @@
-Welcome to DataStax session@Microsoft AMP Phoneix!
+Welcome to DataStax session- Microsoft AMP Phoenix!
 ===================
 ![icon](http://i.imgur.com/FoIOBlt.png)
 
