@@ -14,7 +14,7 @@ We have an 8 node cluster for you to play with! The cluster is currently running
 
 ```
 // To SSH into the cluster:
-ssh root@ipaddress 
+ssh datastax@ipaddress 
 // You can login to any of these nodes 
 
 Node 0: 104.45.236.87
