@@ -79,17 +79,17 @@ CREATE TABLE <yourkeyspace>.sales (
 Let's get some data into your table! Cut and paste these inserts into DevCenter or CQLSH. Feel free to insert your own data values, as well. 
 
 ```
-INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('marc', 20150205, 'Apple Watch', 299.00);
-INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('marc', 20150204, 'Apple iPad', 999.00);
-INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('rich', 20150206, 'Music Man Stingray Bass', 1499.00);
-INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('marc', 20150207, 'Jimi Hendrix Stratocaster', 899.00);
-INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('rich', 20150208, 'Santa Cruz Tallboy 29er', 4599.00);
+INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('kunal', 20150301, 'Apple Watch', 299.00);
+INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('marc', 20150228, 'Apple iPad', 999.00);
+INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('marc', 20150227, 'Music Man Stingray Bass', 1499.00);
+INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('morris', 20150225, 'Jimi Hendrix Stratocaster', 899.00);
+INSERT INTO <yourkeyspace>.sales (name, time, item, price) VALUES ('john', 20150229, 'Santa Cruz Tallboy 29er', 4599.00);
 ```
 
 And to retrieve it:
 
 ```
-SELECT * FROM <keyspace>.sales where name='marc' AND time >=20150205 ;
+SELECT * FROM <keyspace>.sales where name='marc' AND time >=20150227 ;
 ```
 >See what I did there? You can do range scans on clustering keys! Give it a try.
 
