@@ -53,7 +53,7 @@ Cassandra is the brains of DSE. It's an awesome storage engine that handles repl
 
 Try the following CQL commands in DevCenter. In addition to DevCenter, you can also use **CQLSH** as an interactive command line tool for CQL access to Cassandra. Start CQLSH like this:
 
-```cqlsh 127.0.0.1``` 
+```cqlsh <<private ip address>>``` 
 > Make sure to replace 127.0.0.1 with the IP of the respective node 
 
 Let's make our first Cassandra Keyspace! 
