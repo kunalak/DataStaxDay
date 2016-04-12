@@ -15,14 +15,15 @@ We have an 8 node cluster for you to play with! The cluster is currently running
 ```
 // To SSH into the cluster:
 ssh datastax@ipaddress 
-// You can login to any of these nodes 
-
-Node 0: 104.45.236.87
-Node 1: 104.45.239.82
-Node 2: 104.45.230.158
-Node 3: 104.45.226.34
-Node 4: 104.45.224.77
-Node 5: 104.45.224.65
+// You can login to any one of these 8 nodes 
+13.88.17.120                                              
+13.88.17.160                                          
+13.88.18.128                                            
+13.88.19.36                              
+13.88.20.218                                            
+13.88.22.76      
+13.88.23.4      
+13.88.23.60
 password: C@ssandra
 ```
 
