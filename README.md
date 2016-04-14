@@ -21,7 +21,7 @@ ssh datastax@ipaddress
 13.88.19.36                              
 13.88.20.218                                            
 13.88.22.76      
-13.88.23.4      
+13.88.23.4    -- this node has also become our SPARKMASTER. so don't shutdown DSE here or stop it while doing the exercises.
 13.88.23.60
 password: C@ssandra
 
