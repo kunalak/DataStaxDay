@@ -292,10 +292,9 @@ DSE Streaming Demo
 --------------------
 **Spark Notebook**
 
-[Spark Notebook](http://spark-notebook.io/) is an awesome tool for exploring Spark and making simple visualizations. It's not a DataStax product. Check in back here again soon for a quick demo - here: http://13.88.17.120:9000/tree/kunal#
+[Spark Notebook](http://spark-notebook.io/) is an awesome tool for exploring Spark and making simple visualizations. It's not a DataStax product. 
 
-http://13.88.17.120:9000/notebooks/dse-streaming/StreamRatingsFromKafka.snb
-http://13.88.17.120:9000/notebooks/dse-streaming/CassandraMovieAnalysis.snb
+http://13.91.7.199:9290/tree/MovieAnalysis
 
 >Have fun with it! See what you come up with :)
 
